@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ms-ms>
+  <id>2248108</id>
+  <notes nil="true"/>
+  <sample-concentration nil="true"/>
+  <solvent nil="true"/>
+  <sample-mass nil="true"/>
+  <sample-assessment nil="true"/>
+  <spectra-assessment nil="true"/>
+  <sample-source nil="true"/>
+  <collection-date nil="true"/>
+  <instrument-type nil="true"/>
+  <peak-counter>3</peak-counter>
+  <created-at>2021-09-20T20:53:12Z</created-at>
+  <updated-at>2021-09-20T20:53:12Z</updated-at>
+  <mono-mass nil="true"/>
+  <energy-field nil="true"/>
+  <collision-energy-level nil="true"/>
+  <collision-energy-voltage>35</collision-energy-voltage>
+  <ionization-mode>Positive</ionization-mode>
+  <sample-concentration-units nil="true"/>
+  <sample-mass-units nil="true"/>
+  <predicted>false</predicted>
+  <structure-id>9962</structure-id>
+  <splash-key>splash10-03di-0900000000-2a3e96d13fcbf1ff9594</splash-key>
+  <chromatography-type>LC</chromatography-type>
+  <analyzer-type>QTOF</analyzer-type>
+  <ionization-type>ESI</ionization-type>
+  <charge-type>Positive</charge-type>
+  <data-source>MoNA</data-source>
+  <data-source-id>FiehnHILIC001612</data-source-id>
+  <adduct>M+H</adduct>
+  <adduct-type>+</adduct-type>
+  <adduct-mass>228.0958</adduct-mass>
+  <database-id>HMDB0000014</database-id>
+  <references>
+    <reference>
+      <id>1556303</id>
+      <spectra-id>2248108</spectra-id>
+      <spectra-type>MsMs</spectra-type>
+      <pubmed-id nil="true"/>
+      <ref-text>MoNA - MassBank of America (https://mona.fiehnlab.ucdavis.edu)</ref-text>
+      <database nil="true"/>
+      <database-id nil="true"/>
+    </reference>
+  </references>
+  <ms-ms-peaks>
+    <ms-ms-peak>
+      <id>57639918</id>
+      <ms-ms-id>2248108</ms-ms-id>
+      <mass-charge>94.0387</mass-charge>
+      <intensity>1.0</intensity>
+      <molecule-id nil="true"/>
+    </ms-ms-peak>
+    <ms-ms-peak>
+      <id>57639919</id>
+      <ms-ms-id>2248108</ms-ms-id>
+      <mass-charge>95.02384</mass-charge>
+      <intensity>4.05</intensity>
+      <molecule-id nil="true"/>
+    </ms-ms-peak>
+    <ms-ms-peak>
+      <id>57639920</id>
+      <ms-ms-id>2248108</ms-ms-id>
+      <mass-charge>112.05109</mass-charge>
+      <intensity>100.0</intensity>
+      <molecule-id nil="true"/>
+    </ms-ms-peak>
+  </ms-ms-peaks>
+</ms-ms>
