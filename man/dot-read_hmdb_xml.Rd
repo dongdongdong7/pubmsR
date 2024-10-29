@@ -15,7 +15,7 @@
 A data.frame.
 }
 \description{
-.read_hmdb_xml
+Read a HMDB spectra xml file.
 }
 \examples{
 xml_path <- system.file("demo", "HMDB0000014_ms_ms_spectrum_2248108_experimental.xml", package = "pubmsR")

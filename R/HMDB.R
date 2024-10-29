@@ -1,4 +1,6 @@
 #' @title .read_hmdb_xml
+#' @description
+#' Read a HMDB spectra xml file.
 #'
 #' @param xml_path One xml file path.
 #' @param nonStop Whether to stop when an error occurs.
