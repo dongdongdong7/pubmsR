@@ -95,11 +95,11 @@
   int <- xml2::xml_double(xml2::xml_find_all(doc, "ms-ms-peaks/ms-ms-peak/intensity"))
   if (!length(mz) || !length(int) || length(mz) != length(int)) {
     msg <- paste0("No mz and intensity values found in file ",
-                  basename(x))
+                  basename(xml_path))
     if (nonStop) {
       warning(msg)
-      res$mz <- NULL
-      res$int <- NULL
+      res$mz <- list(NA)
+      res$int <- list(NA)
       return(res)
     }
     else stop(msg)
