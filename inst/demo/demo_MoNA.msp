@@ -1,0 +1,302 @@
+Name: Mecoprop
+Synon: MCPP-P
+Synon: $:00in-source
+DB#: WA000273
+InChIKey: WNTGYJSOUMFZEP-UHFFFAOYSA-N
+Precursor_type: [M-H]-
+Spectrum_type: MS2
+PrecursorMZ: 212.9
+Instrument_type: LC-ESI-QQ
+Instrument: QuattroPremier XE, Waters
+Ion_mode: N
+Collision_energy: 40 V
+Formula: C10H11ClO3
+MW: 214
+ExactMass: 214.03967189199997
+Comments: "SMILES=OC(=O)C(C)Oc(c1)c(C)cc(Cl)c1" "cas=7085-19-0" "InChI=InChI=1S/C10H11ClO3/c1-6-5-8(11)3-4-9(6)14-7(2)10(12)13/h3-5,7H,1-2H3,(H,12,13)" "computed SMILES=O=C(O)C(OC1=CC=C(Cl)C=C1C)C" "computed [2M+H-H2O]+=411.07197378399997" "computed [2M+K]+=467.17764378399994" "computed [M+H]+=215.04764189199997" "computed [2M+Na]+=451.06911378399997" "computed [2M+Cl]-=463.532343784" "computed [2M+HAc-H]-=487.12337378399997" "computed [M-H20-H]-=195.02128189199996" "computed [M-H]-=213.03239589199998" "computed [2M-H]-=427.07206778399996" "computed [M+Na]+=237.02944189199997" "computed [M+H-H2O]+=197.03230189199996" "computed [2M+NH4]+=446.11792378399997" "computed [M+Cl]-=249.49267189199998" "computed [M+NH4]+=232.07825189199997" "computed [M+K]+=253.13797189199997" "computed [2M+H]+=429.08731378399995" "computed [M+HAc-H]-=273.08370189199997" "accession=WA000273" "date=2016.01.19 (Created 2007.08.01, modified 2011.05.06)" "author=Nihon Waters K.K." "license=CC BY-NC" "exact mass=214.03967" "find peak=ignore rel.int. < 5" "computed spectral entropy=4.401320321484298" "computed normalized entropy=0.8843793036321032" "computed mass accuracy=621.8689149834514" "computed mass error=-0.1323958919999768" "SPLASH=splash10-0006-2940000000-ccc5fb85d1bfed4505d7" "submitter=submitter = Nihon Waters (Nihon Waters K.K.)" "MoNA Rating=4.166666666666666"
+Num Peaks: 145
+51 3.503504
+53 3.503504
+55 5.105105
+56 0.800801
+57 3.503504
+59 3.903904
+61 1.201201
+62 3.503504
+64 3.103103
+66 5.105105
+68 5.905906
+69 0.800801
+70 4.304304
+72 0.800801
+73 4.704705
+75 5.105105
+77 15.715716
+79 2.702703
+81 4.704705
+82 1.601602
+84 5.105105
+85 0.800801
+87 5.105105
+89 5.505506
+90 3.503504
+92 3.103103
+94 2.702703
+95 1.201201
+97 5.505506
+100 3.103103
+102 3.903904
+103 1.201201
+105 45.145145
+107 4.704705
+109 2.702703
+111 3.103103
+112 0.800801
+114 4.304304
+116 6.706707
+117 1.601602
+118 3.903904
+120 4.704705
+121 1.201201
+123 4.304304
+125 4.304304
+127 4.704705
+129 0.800801
+130 3.503504
+132 1.201201
+133 5.105105
+135 3.103103
+137 3.503504
+139 2.702703
+141 100.000000
+142 5.105105
+145 3.503504
+146 9.809810
+148 2.402402
+149 5.905906
+151 3.103103
+153 1.201201
+154 3.903904
+156 3.503504
+157 1.201201
+159 5.905906
+160 1.201201
+162 4.704705
+163 4.304304
+165 4.704705
+167 2.402402
+169 3.503504
+170 3.503504
+172 3.903904
+174 2.002002
+175 4.704705
+177 2.702703
+180 3.103103
+182 3.903904
+183 0.800801
+184 14.114114
+186 3.103103
+188 1.601602
+189 4.704705
+191 3.903904
+193 0.800801
+194 3.103103
+196 5.505506
+198 3.503504
+200 4.704705
+202 4.304304
+203 0.800801
+204 5.505506
+206 1.601602
+207 4.704705
+209 1.601602
+211 5.105105
+212 2.702703
+214 3.903904
+216 1.201201
+218 4.304304
+220 2.702703
+221 1.201201
+223 3.903904
+224 1.201201
+225 5.105105
+227 2.702703
+229 4.304304
+232 5.505506
+233 2.702703
+235 2.402402
+237 2.002002
+239 4.304304
+241 2.402402
+242 2.402402
+244 3.903904
+246 2.702703
+248 5.105105
+250 4.304304
+253 2.702703
+255 4.304304
+257 1.201201
+258 3.103103
+260 2.702703
+262 2.702703
+264 4.704705
+265 1.201201
+267 5.105105
+269 1.201201
+270 3.903904
+272 3.503504
+274 5.105105
+276 2.002002
+278 3.903904
+280 3.903904
+282 3.503504
+284 2.002002
+285 7.407407
+287 3.103103
+289 0.800801
+290 3.903904
+292 2.402402
+293 0.800801
+294 2.702703
+297 2.402402
+299 3.903904
+
+
+Name: Mecoprop
+Synon: MCPP-P
+Synon: $:00in-source
+DB#: WA000272
+InChIKey: WNTGYJSOUMFZEP-UHFFFAOYSA-N
+Precursor_type: [M-H]-
+Spectrum_type: MS2
+PrecursorMZ: 212.9
+Instrument_type: LC-ESI-QQ
+Instrument: QuattroPremier XE, Waters
+Ion_mode: N
+Collision_energy: 30 V
+Formula: C10H11ClO3
+MW: 214
+ExactMass: 214.039671892
+Comments: "SMILES=OC(=O)C(C)Oc(c1)c(C)cc(Cl)c1" "cas=7085-19-0" "InChI=InChI=1S/C10H11ClO3/c1-6-5-8(11)3-4-9(6)14-7(2)10(12)13/h3-5,7H,1-2H3,(H,12,13)" "computed SMILES=O=C(O)C(OC1=CC=C(Cl)C=C1C)C" "computed [2M+H-H2O]+=411.071973784" "computed [2M+K]+=467.177643784" "computed [M+H]+=215.047641892" "computed [2M+Na]+=451.069113784" "computed [2M+Cl]-=463.532343784" "computed [2M+HAc-H]-=487.123373784" "computed [M-H20-H]-=195.021281892" "computed [M-H]-=213.032395892" "computed [2M-H]-=427.072067784" "computed [M+Na]+=237.029441892" "computed [M+H-H2O]+=197.032301892" "computed [2M+NH4]+=446.117923784" "computed [M+Cl]-=249.492671892" "computed [M+NH4]+=232.078251892" "computed [M+K]+=253.137971892" "computed [2M+H]+=429.087313784" "computed [M+HAc-H]-=273.083701892" "accession=WA000272" "date=2016.01.19 (Created 2007.08.01, modified 2011.05.06)" "author=Nihon Waters K.K." "license=CC BY-NC" "exact mass=214.03967" "find peak=ignore rel.int. < 5" "computed spectral entropy=0.4329594031880746" "computed normalized entropy=0.3123141919428402" "computed mass accuracy=621.8689149835849" "computed mass error=-0.13239589200000523" "SPLASH=splash10-0006-0900000000-578c869185387ccab164" "submitter=submitter = Nihon Waters (Nihon Waters K.K.)" "MoNA Rating=4.166666666666666"
+Num Peaks: 4
+71 2.002002
+92 1.201201
+105 9.409409
+141 100.000000
+
+
+Name: Mecoprop
+Synon: MCPP-P
+Synon: $:00in-source
+DB#: WA000271
+InChIKey: WNTGYJSOUMFZEP-UHFFFAOYSA-N
+Precursor_type: [M-H]-
+Spectrum_type: MS2
+PrecursorMZ: 212.9
+Instrument_type: LC-ESI-QQ
+Instrument: QuattroPremier XE, Waters
+Ion_mode: N
+Collision_energy: 20 V
+Formula: C10H11ClO3
+MW: 214
+ExactMass: 214.039671892
+Comments: "SMILES=OC(=O)C(C)Oc(c1)c(C)cc(Cl)c1" "cas=7085-19-0" "InChI=InChI=1S/C10H11ClO3/c1-6-5-8(11)3-4-9(6)14-7(2)10(12)13/h3-5,7H,1-2H3,(H,12,13)" "computed SMILES=O=C(O)C(OC1=CC=C(Cl)C=C1C)C" "computed [2M+H-H2O]+=411.071973784" "computed [2M+K]+=467.177643784" "computed [M+H]+=215.047641892" "computed [2M+Na]+=451.069113784" "computed [2M+Cl]-=463.532343784" "computed [2M+HAc-H]-=487.123373784" "computed [M-H20-H]-=195.021281892" "computed [M-H]-=213.032395892" "computed [2M-H]-=427.072067784" "computed [M+Na]+=237.029441892" "computed [M+H-H2O]+=197.032301892" "computed [2M+NH4]+=446.117923784" "computed [M+Cl]-=249.492671892" "computed [M+NH4]+=232.078251892" "computed [M+K]+=253.137971892" "computed [2M+H]+=429.087313784" "computed [M+HAc-H]-=273.083701892" "accession=WA000271" "date=2016.01.19 (Created 2007.08.01, modified 2011.05.06)" "author=Nihon Waters K.K." "license=CC BY-NC" "exact mass=214.03967" "find peak=ignore rel.int. < 5" "computed spectral entropy=0.0965842271209878" "computed normalized entropy=0.13934158549554243" "computed mass accuracy=621.8689149835849" "computed mass error=-0.13239589200000523" "SPLASH=splash10-0006-0900000000-a2426217f1071c76a732" "submitter=submitter = Nihon Waters (Nihon Waters K.K.)" "MoNA Rating=3.5714285714285716"
+Num Peaks: 2
+71 2.002002
+141 100.000000
+
+
+Name: Mecoprop
+Synon: MCPP-P
+Synon: $:00in-source
+DB#: WA000270
+InChIKey: WNTGYJSOUMFZEP-UHFFFAOYSA-N
+Precursor_type: [M-H]-
+Spectrum_type: MS2
+PrecursorMZ: 212.9
+Instrument_type: LC-ESI-QQ
+Instrument: QuattroPremier XE, Waters
+Ion_mode: N
+Collision_energy: 10 V
+Formula: C10H11ClO3
+MW: 214
+ExactMass: 214.039671892
+Comments: "SMILES=OC(=O)C(C)Oc(c1)c(C)cc(Cl)c1" "cas=7085-19-0" "InChI=InChI=1S/C10H11ClO3/c1-6-5-8(11)3-4-9(6)14-7(2)10(12)13/h3-5,7H,1-2H3,(H,12,13)" "computed SMILES=O=C(O)C(OC1=CC=C(Cl)C=C1C)C" "computed [2M+H-H2O]+=411.071973784" "computed [2M+K]+=467.177643784" "computed [M+H]+=215.047641892" "computed [2M+Na]+=451.069113784" "computed [2M+Cl]-=463.532343784" "computed [2M+HAc-H]-=487.123373784" "computed [M-H20-H]-=195.021281892" "computed [M-H]-=213.032395892" "computed [2M-H]-=427.072067784" "computed [M+Na]+=237.029441892" "computed [M+H-H2O]+=197.032301892" "computed [2M+NH4]+=446.117923784" "computed [M+Cl]-=249.492671892" "computed [M+NH4]+=232.078251892" "computed [M+K]+=253.137971892" "computed [2M+H]+=429.087313784" "computed [M+HAc-H]-=273.083701892" "accession=WA000270" "date=2016.01.19 (Created 2007.08.01, modified 2011.05.06)" "author=Nihon Waters K.K." "license=CC BY-NC" "exact mass=214.03967" "find peak=ignore rel.int. < 5" "computed spectral entropy=0.7925359113361397" "computed normalized entropy=0.5716938145055319" "computed mass accuracy=621.8689149835849" "computed mass error=-0.13239589200000523" "SPLASH=splash10-0006-0930000000-4ab0fe45e55785326179" "submitter=submitter = Nihon Waters (Nihon Waters K.K.)" "MoNA Rating=4.166666666666666"
+Num Peaks: 4
+71 5.505506
+141 100.000000
+169 1.601602
+213 41.141141
+
+
+Name: Mecoprop
+Synon: MCPP-P
+Synon: $:00in-source
+DB#: WA000269
+InChIKey: WNTGYJSOUMFZEP-UHFFFAOYSA-N
+Precursor_type: [M-H]-
+Spectrum_type: MS2
+PrecursorMZ: 212.9
+Instrument_type: LC-ESI-QQ
+Instrument: QuattroPremier XE, Waters
+Ion_mode: N
+Collision_energy: 5 V
+Formula: C10H11ClO3
+MW: 214
+ExactMass: 214.039671892
+Comments: "SMILES=OC(=O)C(C)Oc(c1)c(C)cc(Cl)c1" "cas=7085-19-0" "InChI=InChI=1S/C10H11ClO3/c1-6-5-8(11)3-4-9(6)14-7(2)10(12)13/h3-5,7H,1-2H3,(H,12,13)" "computed SMILES=O=C(O)C(OC1=CC=C(Cl)C=C1C)C" "computed [2M+H-H2O]+=411.071973784" "computed [2M+K]+=467.177643784" "computed [M+H]+=215.047641892" "computed [2M+Na]+=451.069113784" "computed [2M+Cl]-=463.532343784" "computed [2M+HAc-H]-=487.123373784" "computed [M-H20-H]-=195.021281892" "computed [M-H]-=213.032395892" "computed [2M-H]-=427.072067784" "computed [M+Na]+=237.029441892" "computed [M+H-H2O]+=197.032301892" "computed [2M+NH4]+=446.117923784" "computed [M+Cl]-=249.492671892" "computed [M+NH4]+=232.078251892" "computed [M+K]+=253.137971892" "computed [2M+H]+=429.087313784" "computed [M+HAc-H]-=273.083701892" "accession=WA000269" "date=2016.01.19 (Created 2007.08.01, modified 2011.05.06)" "author=Nihon Waters K.K." "license=CC BY-NC" "exact mass=214.03967" "find peak=ignore rel.int. < 5" "computed spectral entropy=0.2685289527444882" "computed normalized entropy=0.3874053884595799" "computed mass accuracy=621.8689149835849" "computed mass error=-0.13239589200000523" "SPLASH=splash10-03di-0090000000-fbb8262fb4f6c7289dbc" "submitter=submitter = Nihon Waters (Nihon Waters K.K.)" "MoNA Rating=3.5714285714285716"
+Num Peaks: 2
+141 8.208208
+213 100.000000
+
+
+Name: Forchlorfenuron
+Synon: $:00in-source
+DB#: WA000268
+InChIKey: GPXLRLUVLMHHIK-UHFFFAOYSA-N
+Precursor_type: [M+H]+
+Spectrum_type: MS2
+PrecursorMZ: 247.9
+Instrument_type: LC-ESI-QQ
+Instrument: QuattroPremier XE, Waters
+Ion_mode: P
+Collision_energy: 40 V
+Formula: C12H10ClN3O
+MW: 247
+ExactMass: 247.05123962000002
+Comments: "SMILES=O=C(Nc(c2)cccc2)Nc(c1)cc(Cl)nc1" "cas=68157-60-8" "InChI=InChI=1S/C12H10ClN3O/c13-11-8-10(6-7-14-11)16-12(17)15-9-4-2-1-3-5-9/h1-8H,(H2,14,15,16,17)" "computed SMILES=ClC1=NC=CC(=C1)NC(O)=NC=2C=CC=CC2" "computed [2M+H-H2O]+=477.09510924000006" "computed [2M+K]+=533.2007792400001" "computed [M+H]+=248.05920962000002" "computed [2M+Na]+=517.09224924" "computed [2M+Cl]-=529.5554792400001" "computed [2M+HAc-H]-=553.14650924" "computed [M-H20-H]-=228.03284962" "computed [M-H]-=246.04396362000003" "computed [2M-H]-=493.09520324000005" "computed [M+Na]+=270.04100962" "computed [M+H-H2O]+=230.04386962" "computed [2M+NH4]+=512.14105924" "computed [M+Cl]-=282.50423962" "computed [M+NH4]+=265.08981962" "computed [M+K]+=286.14953962000004" "computed [2M+H]+=495.11044924000004" "computed [M+HAc-H]-=306.09526962" "accession=WA000268" "date=2016.01.19 (Created 2007.08.01, modified 2011.05.06)" "author=Nihon Waters K.K." "license=CC BY-NC" "exact mass=247.05124" "find peak=ignore rel.int. < 5" "computed spectral entropy=1.2715845455405868" "computed normalized entropy=0.6115029059741504" "computed mass accuracy=642.2332392094103" "computed mass error=-0.15920962000001282" "SPLASH=splash10-0006-9100000000-4e4d26b6874ad575a844" "submitter=submitter = Nihon Waters (Nihon Waters K.K.)" "MoNA Rating=4.166666666666666"
+Num Peaks: 8
+66 30.630631
+76 3.903904
+90 3.103103
+93 100.000000
+94 1.601602
+119 8.608609
+129 18.418418
+155 2.002002
+
+
+Name: Forchlorfenuron
+Synon: $:00in-source
+DB#: WA000267
+InChIKey: GPXLRLUVLMHHIK-UHFFFAOYSA-N
+Precursor_type: [M+H]+
+Spectrum_type: MS2
+PrecursorMZ: 247.9
+Instrument_type: LC-ESI-QQ
+Instrument: QuattroPremier XE, Waters
+Ion_mode: P
+Collision_energy: 30 V
+Formula: C12H10ClN3O
+MW: 247
+ExactMass: 247.05123962
+Comments: "SMILES=O=C(Nc(c2)cccc2)Nc(c1)cc(Cl)nc1" "cas=68157-60-8" "InChI=InChI=1S/C12H10ClN3O/c13-11-8-10(6-7-14-11)16-12(17)15-9-4-2-1-3-5-9/h1-8H,(H2,14,15,16,17)" "computed SMILES=ClC1=NC=CC(=C1)NC(O)=NC=2C=CC=CC2" "computed [2M+H-H2O]+=477.09510924" "computed [2M+K]+=533.20077924" "computed [M+H]+=248.05920962" "computed [2M+Na]+=517.09224924" "computed [2M+Cl]-=529.55547924" "computed [2M+HAc-H]-=553.14650924" "computed [M-H20-H]-=228.03284961999998" "computed [M-H]-=246.04396362" "computed [2M-H]-=493.09520324" "computed [M+Na]+=270.04100962" "computed [M+H-H2O]+=230.04386961999998" "computed [2M+NH4]+=512.14105924" "computed [M+Cl]-=282.50423962" "computed [M+NH4]+=265.08981962" "computed [M+K]+=286.14953962" "computed [2M+H]+=495.11044924" "computed [M+HAc-H]-=306.09526962" "accession=WA000267" "date=2016.01.19 (Created 2007.08.01, modified 2011.05.06)" "author=Nihon Waters K.K." "license=CC BY-NC" "exact mass=247.05124" "find peak=ignore rel.int. < 5" "computed spectral entropy=1.2014486210345874" "computed normalized entropy=0.5777746558164943" "computed mass accuracy=642.2332392092957" "computed mass error=-0.1592096199999844" "SPLASH=splash10-002f-9600000000-cdeb29cbe6609b7a073a" "submitter=submitter = Nihon Waters (Nihon Waters K.K.)" "MoNA Rating=4.166666666666666"
+Num Peaks: 8
+66 6.306306
+76 1.201201
+93 100.000000
+94 1.201201
+119 8.608609
+129 61.961962
+130 1.201201
+155 9.409409
