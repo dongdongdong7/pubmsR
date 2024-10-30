@@ -2,7 +2,7 @@
 % Please edit documentation in R/read_msp.R
 \name{read_msp}
 \alias{read_msp}
-\title{read_msp}
+\title{Reading MSP files}
 \usage{
 read_msp(
   file_path,
