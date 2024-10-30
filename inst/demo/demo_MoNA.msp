@@ -300,3 +300,23 @@ Num Peaks: 8
 129 61.961962
 130 1.201201
 155 9.409409
+
+
+Name: methyl (2R)-2-(acetyloxy)-2-[(1S,3S,7R,8R,9R,12S,13R)-13-(furan-3-yl)-6,6,8,12-tetramethyl-17-methylidene-5,15-dioxo-2,14-dioxatetracyclo[7.7.1.0¹,¹².0³,⁸]heptadecan-7-yl]acetate
+Synon: $:00in-source
+DB#: VF-NPL-QTOF008529
+InChIKey: QSQFOIMEVMOMIJ-DHGKSUBNSA-N
+Precursor_type: [M+Na]+
+Spectrum_type: MS2
+PrecursorMZ: 551.226
+Instrument_type: LC-ESI-QTOF
+Instrument: Agilent 6530 Q-TOF
+Ion_mode: P
+Collision_energy: 10 V
+Comments: "author=Arpana Vaniya and Alberto Valdes Tabernero" "compound id=MX_C3_275" "retention time=5.8126" "computed spectral entropy=0.23454210447042267" "computed normalized entropy=0.1457292031326037" "SPLASH=splash10-0udi-0000090000-c6c0b8b956308c22f3b6" "submitter=submitter = Arpana Vaniya (University of California, Davis)" "MoNA Rating=2.1052631578947367"
+Num Peaks: 5
+108.7923 1.082082
+298.0325 1.127127
+330.1772 1.085085
+507.2413 1.140140
+551.2245 100.000000
