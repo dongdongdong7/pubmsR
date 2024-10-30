@@ -109,3 +109,22 @@
   return(res)
 }
 
+#' @title load_hmdbMsTb
+#' @description
+#' Load Human Metabolome Spectra Database (Version: 5.0)
+#' The data is stored in a tibble with 65029 experimental and 65535 predicted spectra (18273 unique molecules),
+#' which was generated form the xml file in \url{https://hmdb.ca/downloads}.
+#'
+#' @return A hmdbMsTb tibble.
+#' @author Barry Song
+#' @export
+#'
+#' @examples
+#' hmdbMsTb <- load_hmdbMsTb()
+load_hmdbMsTb <- function(){
+  hmdbMsTb_path <- system.file("extdata", "hmdbMsTb.rds", package = "pubmsR")
+  message("Load hmdbMsTb...")
+  if(file.exists(hmdbMsTb_path)) hmdbMsTb <- tibble::tibble(readRDS(hmdbMsTb_path))
+  else stop("Can not find hmdbMsTb, please redownload!")
+  return(hmdbCmpTb)
+}
