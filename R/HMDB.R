@@ -126,5 +126,5 @@ load_hmdbMsTb <- function(){
   message("Load hmdbMsTb...")
   if(file.exists(hmdbMsTb_path)) hmdbMsTb <- tibble::tibble(readRDS(hmdbMsTb_path))
   else stop("Can not find hmdbMsTb, please redownload!")
-  return(hmdbCmpTb)
+  return(hmdbMsTb)
 }
