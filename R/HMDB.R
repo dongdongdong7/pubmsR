@@ -146,7 +146,7 @@ load_hmdbMsTb <- function(standard = TRUE){
         else if(adduct_notes == "NA") return(NA)
         else{
           has_M <- stringr::str_detect(adduct_notes, "M")
-          has_square_brackets <- grepl("\\[.*?\\]", string)
+          has_square_brackets <- grepl("\\[.*?\\]", adduct_notes)
           if(has_M & has_square_brackets) return(adduct_notes)
           else return(NA)
         }
