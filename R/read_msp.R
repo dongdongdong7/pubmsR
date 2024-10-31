@@ -19,14 +19,14 @@
 #' read_msp(demo_RIKEN_path, format = "RIKEN", thread = 1)
 read_msp <- function(file_path, format = c("MoNA", "NIST", "RIKEN", "CUSTOM")[1], mapping = NA, thread = 1){
   if(format == "MoNA"){
-    mapping <- c(name = "Name", accession = "DB#", formula = "Formula", inchikey = "InChiKey",
+    mapping <- c(name = "Name", accession = "DB#", formula = "Formula", inchikey = "InChIKey",
                 adduct = "Precursor_type", spectrum_type = "Spectrum_type", exactmass = "ExactMass", precursorMz = "PrecursorMZ",
                 polarity = "Ion_mode", collision_energy = "Collision_energy",
                 instrument_type = "Instrument_type", instrument = "Instrument",
                 comments = "Comments", num_peaks = "Num Peaks", synonym = "Synon", mw = "MW")
   }else if(format == "NIST"){
-    mapping <- c(name = "Name", synonym = "Synon", accession = "DB#", inchikey = "InChiKey",
-                 inchi = "InChi", smiles = "SMILES", adduct = "Precursor_type", spectrum_type = "Spectrum_type",
+    mapping <- c(name = "Name", synonym = "Synon", accession = "DB#", inchikey = "InChIKey",
+                 inchi = "InChI", smiles = "SMILES", adduct = "Precursor_type", spectrum_type = "Spectrum_type",
                  precursorMz = "PrecursorMZ", instrument_type = "Instrument_type", instrument = "Instrument",
                  polarity = "Ion_mode", collision_energy = "Collision_energy", formula = "Formula",
                  mw = "MW", exactmass = "ExactMass", comments = "Comments", splash = "Splash", num_peaks = "Num Peaks")
