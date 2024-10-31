@@ -161,6 +161,7 @@ load_hmdbMsTb <- function(standard = TRUE){
     hmdbMsTb$polarity <- polarity_vec
     hmdbMsTb$adduct_new <- adduct_new
     hmdbMsTb$instrument <- instrument_vec
+    hmdbMsTb$predicted <- !hmdbMsTb$predicted == "false"
     hmdbCmpTb <- pubcmpR::load_hmdbCmpTb()
     hmdbMsTb <- hmdbMsTb %>%
       dplyr::left_join(hmdbCmpTb, by = c("database_id" = "accession")) %>%
