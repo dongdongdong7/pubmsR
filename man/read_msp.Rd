@@ -6,7 +6,7 @@
 \usage{
 read_msp(
   file_path,
-  format = c("MoNA", "NIST", "RIKEN", "CUSTOM")[1],
+  format = c("MoNA", "NIST", "RIKEN", "LipidBlast", "CUSTOM")[1],
   mapping = NA,
   thread = 1
 )
@@ -30,7 +30,9 @@ Read msp file. There are several styles of msp format, they are MoNA, NIST and R
 demo_MoNA_path <- system.file("demo", "demo_MoNA.msp", package = "pubmsR")
 demo_NIST_path <- system.file("demo", "demo_NIST.msp", package = "pubmsR")
 demo_RIKEN_path <- system.file("demo", "demo_RIKEN.msp", package = "pubmsR")
+demo_LipidBlast_path <- system.file("demo", "demo_LipidBlast.msp", package = "pubmsR")
 read_msp(demo_MoNA_path, format = "MoNA", thread = 1)
 read_msp(demo_NIST_path, format = "NIST", thread = 1)
 read_msp(demo_RIKEN_path, format = "RIKEN", thread = 1)
+read_msp(demo_LipidBlast_path, format = "LipidBlast", thread = 1)
 }
