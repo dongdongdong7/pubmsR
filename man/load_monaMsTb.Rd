@@ -4,7 +4,12 @@
 \alias{load_monaMsTb}
 \title{Load MoNA MS/MS Tibble}
 \usage{
-load_monaMsTb()
+load_monaMsTb(standard = TRUE)
+}
+\arguments{
+\item{standard}{If TRUE, it will return a tibble with standard column names, which include accession, inchikey,
+formula, name, exactmass, smiles, inchi, precursorMz, adduct, polarity, collision_energy, instrument_type, instrument, predicted,
+mz, intensity.}
 }
 \value{
 A tibble.
