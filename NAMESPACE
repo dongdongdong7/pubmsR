@@ -2,6 +2,7 @@
 
 export("%>%")
 export(load_hmdbMsTb)
+export(load_lipidblastMsTb)
 export(load_monaMsTb)
 export(read_msp)
 importFrom(magrittr,"%>%")
