@@ -17,7 +17,7 @@
 #' read_msp(demo_MoNA_path, format = "MoNA", thread = 1)
 #' read_msp(demo_NIST_path, format = "NIST", thread = 1)
 #' read_msp(demo_RIKEN_path, format = "RIKEN", thread = 1)
-read_msp <- function(file_path, format = c("MoNA", "NIST", "RIKEN", "CUSTOM")[1], mapping = NA, thread = 1){
+read_msp <- function(file_path, format = c("MoNA", "NIST", "RIKEN", "LipidBlast", "CUSTOM")[1], mapping = NA, thread = 1){
   if(format == "MoNA"){
     mapping <- c(name = "Name", accession = "DB#", formula = "Formula", inchikey = "InChIKey",
                 adduct = "Precursor_type", spectrum_type = "Spectrum_type", exactmass = "ExactMass", precursorMz = "PrecursorMZ",
@@ -35,6 +35,12 @@ read_msp <- function(file_path, format = c("MoNA", "NIST", "RIKEN", "CUSTOM")[1]
                  inchikey = "INCHIKEY", inchi = "INCHI", smiles = "SMILES", rtime = "RETENTIONTIME",
                  instrument_type = "INSTRUMENTTYPE", instrument = "INSTRUMENT", polarity = "IONMODE",
                  links = "LINKS", comments = "Comment", splash = "Splash", num_peaks = "Num Peaks")
+  }else if(format == "LipidBlast"){
+    mapping <- c(name = "Name", synonym = "Synon", accession = "DB#", inchikey = "InChIKey",
+                 adduct = "Precursor_type", precursorMz = "PrecursorMZ", spectrum_type = "Spectrum_type",
+                 instrument_type = "Instrument_type", instrument = "Instrument", polarity = "Ion_mode",
+                 collision_energy = "Collision_energy", formula = "Formula", mw = "MW", exactmass = "ExactMass",
+                 comments = "Comments", num_peaks = "Num Peaks")
   }else if(format == "CUSTOM"){
     if(is.na(mapping)) mapping <- MsBackendMsp::spectraVariableMapping(MsBackendMsp::MsBackendMsp())
     else mapping <- mapping
