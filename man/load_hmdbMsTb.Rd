@@ -4,7 +4,12 @@
 \alias{load_hmdbMsTb}
 \title{load_hmdbMsTb}
 \usage{
-load_hmdbMsTb()
+load_hmdbMsTb(standard = TRUE)
+}
+\arguments{
+\item{standard}{If TRUE, it will return a tibble with standard column names, which include accession, inchikey,
+formula, name, exactmass, smiles, inchi, precursorMz, adduct, polarity, collision_energy, instrument_type, instrument, predicted,
+mz, intensity.}
 }
 \value{
 A hmdbMsTb tibble.

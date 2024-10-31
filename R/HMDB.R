@@ -115,16 +115,59 @@
 #' The data is stored in a tibble with 65029 experimental and 65535 predicted spectra (18273 unique molecules),
 #' which was generated form the xml file in \url{https://hmdb.ca/downloads}.
 #'
+#' @param standard If TRUE, it will return a tibble with standard column names, which include accession, inchikey,
+#' formula, name, exactmass, smiles, inchi, precursorMz, adduct, polarity, collision_energy, instrument_type, instrument, predicted,
+#' mz, intensity.
+#'
 #' @return A hmdbMsTb tibble.
 #' @author Barry Song
 #' @export
 #'
 #' @examples
 #' hmdbMsTb <- load_hmdbMsTb()
-load_hmdbMsTb <- function(){
+load_hmdbMsTb <- function(standard = TRUE){
   hmdbMsTb_path <- system.file("extdata", "hmdbMsTb.rds", package = "pubmsR")
   message("Load hmdbMsTb...")
   if(file.exists(hmdbMsTb_path)) hmdbMsTb <- tibble::tibble(readRDS(hmdbMsTb_path))
   else stop("Can not find hmdbMsTb, please redownload!")
+  if(standard){
+    pos_char <- c("Positive", "positive", "+")
+    neg_char <- c("Negative", "negative", "-")
+    polarity_vec <- unname(sapply(1:nrow(hmdbMsTb), function(i) {
+      if(hmdbMsTb$ionization_mode[i] %in% pos_char | hmdbMsTb$adduct_type[i] %in% pos_char | hmdbMsTb$charge_type[i] %in% pos_char) return("pos")
+      else if(hmdbMsTb$ionization_mode[i] %in% neg_char | hmdbMsTb$adduct_type[i] %in% neg_char | hmdbMsTb$charge_type[i] %in% neg_char) return("neg")
+      else return(NA)
+    }))
+    adduct_new <- unname(sapply(1:nrow(hmdbMsTb), function(i) {
+      adduct_orign <- hmdbMsTb$adduct[i]
+      if(is.na(adduct_orign)){
+        adduct_notes <- stringr::str_extract(hmdbMsTb$notes[i], "(?<=adduct_type ).*?(?= original_collision_energy)")
+        if(is.na(adduct_notes)) return(NA)
+        else if(adduct_notes == "NA") return(NA)
+        else{
+          has_M <- stringr::str_detect(adduct_notes, "M")
+          has_square_brackets <- grepl("\\[.*?\\]", string)
+          if(has_M & has_square_brackets) return(adduct_notes)
+          else return(NA)
+        }
+      }
+      else if(adduct_orign == "M-H") return("[M-H]-")
+      else if(adduct_orign == "M+H") return("[M+H]+")
+      else return(NA)
+    }))
+    instrument_vec <- unname(sapply(1:nrow(hmdbMsTb), function(i) {
+      stringr::str_extract(hmdbMsTb$notes[i], "(?<=instrument=).*")
+    }))
+    hmdbMsTb$polarity <- polarity_vec
+    hmdbMsTb$adduct_new <- adduct_new
+    hmdbMsTb$instrument <- instrument_vec
+    hmdbCmpTb <- pubcmpR::load_hmdbCmpTb()
+    hmdbMsTb <- hmdbMsTb %>%
+      dplyr::left_join(hmdbCmpTb, by = c("database_id" = "accession")) %>%
+      dplyr::select(database_id, inchikey, chemical_formula, name, monisotopic_molecular_weight, smiles, inchi,
+                    adduct_mass, adduct_new, polarity, collision_energy_voltage, instrument_type, instrument,predicted, mz, int)
+    colnames(hmdbMsTb) <- c("accession", "inchikey", "formula", "name", "exactmass", "smiles", "inchi", "precursorMz",
+                            "adduct", "polarity", "collision_energy", "instrument_type", "instrument", "predicted", "mz", "intensity")
+  }
   return(hmdbMsTb)
 }
