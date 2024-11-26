@@ -44,7 +44,7 @@ read_msp <- function(file_path, format = c("MoNA", "NIST", "RIKEN", "LipidBlast"
                  collision_energy = "Collision_energy", formula = "Formula", mw = "MW", exactmass = "ExactMass",
                  comments = "Comments", num_peaks = "Num Peaks")
   }else if(format == "CUSTOM"){
-    if(is.na(mapping)) mapping <- MsBackendMsp::spectraVariableMapping(MsBackendMsp::MsBackendMsp())
+    if(all(is.na(mapping))) mapping <- MsBackendMsp::spectraVariableMapping(MsBackendMsp::MsBackendMsp())
     else mapping <- mapping
   }else stop("format is wrong!")
   if(thread == 1){
